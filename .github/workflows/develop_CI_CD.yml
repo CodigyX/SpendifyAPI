@@ -69,7 +69,7 @@ jobs:
       #  KUBECONFIG: ${{ steps.namespace.outputs.kubeconfig }}
       with:
         vercel-token: ${{ secrets.VERCEL_TOKEN }}
-        zeit-token: ${{ secrets.VERCEL_NAMESPACE }}
+        #zeit-token: ${{ secrets.VERCEL_NAMESPACE }}
         #namespace: ${{secrets.OKTETO_NAMESPACE }}
         #manifest: manifests/k8s.yml
         #tag: ${{ secrets.DOCKER_USERNAME }}/${{secrets.MODEL_NAME}}:${{github.sha}}
